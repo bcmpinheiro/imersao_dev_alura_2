@@ -1,0 +1,55 @@
+* {
+  padding:0;
+  margin:10;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Snell Roundhand', cursive;
+  font-color: black;
+  background-image: url('https://assets.skyfilabs.com/images/blog/fahrenheit-to-celcius-conversion-using-java.webp');
+  background-color: #C0C0C0;
+  background-size: 80vh;
+  background-position: center top 260px ;
+  background-repeat: no-repeat;
+}
+
+.button input {
+  cursor:pointer;
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  background-color:#FFF;
+  border: black, 10px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:black;
+  margin: 200px, 200px, 50px;
+}
+
+.page-subtitle {
+  color:black;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 170px;
+  position: absolute;
+  top:10px;
+  right:20px;
+}
+
+.alura-logo {
+  width: 60px;
+  position: absolute;
+  top: 50px;
+  right: 22px;
+}
