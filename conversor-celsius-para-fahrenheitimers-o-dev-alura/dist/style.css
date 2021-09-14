@@ -1,4 +1,5 @@
 * {
+  position: center;
   padding:0;
   margin:10;
   box-sizing: border-box;
@@ -10,7 +11,7 @@ body {
   background-image: url('https://assets.skyfilabs.com/images/blog/fahrenheit-to-celcius-conversion-using-java.webp');
   background-color: #C0C0C0;
   background-size: 80vh;
-  background-position: center top 260px ;
+  background-position: center top 300px ;
   background-repeat: no-repeat;
 }
 
@@ -26,13 +27,13 @@ body {
 
 .container {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   height: 100vh;
 }
 
 .page-title {
   color:black;
-  margin: 200px, 200px, 50px;
+  margin: 0 0 5px;
 }
 
 .page-subtitle {
@@ -43,13 +44,13 @@ body {
 .page-logo {
   width: 170px;
   position: absolute;
-  top:10px;
-  right:20px;
+  top:5px;
+  right:10px;
 }
 
 .alura-logo {
-  width: 60px;
+  width: 40px;
   position: absolute;
-  top: 50px;
-  right: 22px;
+  top: 5px;
+  left: 10px;
 }
