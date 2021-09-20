@@ -1,33 +1,29 @@
 var adivinhaNumero = Math.round(Math.random() * 10);
 console.log(adivinhaNumero);
+var elementoResultado = document.getElementById("resultado");
+
+var tentativas = 3;
 
 function Chutar() {
-  var elementoResultado = document.getElementById("resultado");
   var chute = parseInt(document.getElementById("valor").value);
 
-  var tentativas = 3;
-
-  while (tentativas) {
-    var tentativas = parseInt(chute);
-
-    if (adivinhaNumero == chute) {
-      elementoResultado.innerHTML = "Você ACERTOU!";
-      break;
-    } else if (chute > adivinhaNumero) {
-      elementoResultado.innerHTML =
-        "Tente Novamente, o número secreto é menor...";
-      tentativas = tentativas - 1;
-    } else if (chute < adivinhaNumero) {
-      elementoResultado.innerHTML =
-        "Tente Novamente, o número secreto é maior...";
-      tentativas = tentativas - 1;
-    }
+  if (adivinhaNumero === chute) {
+    elementoResultado.innerHTML = "Você ACERTOU!";
+    tentativas = 3;
+  } else if (chute > adivinhaNumero) {
+    elementoResultado.innerHTML =
+      "Tente Novamente, o número secreto é menor...";
+    tentativas = tentativas - 1;
+  } else if (chute < adivinhaNumero) {
+    elementoResultado.innerHTML =
+      "Tente Novamente, o número secreto é maior...";
+    tentativas = tentativas - 1;
   }
-
-  if (chute != adivinhaNumero) {
+  if (tentativas < 1) {
     elementoResultado.innerHTML =
       "Não foi dessa vez ! O número secreto era o número: " +
       adivinhaNumero +
       ".";
+    tentativas = 3;
   }
 }
