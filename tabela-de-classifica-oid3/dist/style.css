@@ -4,11 +4,12 @@
 
 body {
     font-family: 'Verdana', sans-serif;
-    min-height: 500px;
+    min-height: 600px;
     background-image: url('https://cdn-icons-png.flaticon.com/512/141/141070.png');
     background-color: #8B008B;
     background-size: 250px;
   background-position: right bottom;
+	right: 10px;
   background-repeat: no-repeat;
 }
 
