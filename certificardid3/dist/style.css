@@ -1,0 +1,108 @@
+section{
+  -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+  box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+  display: block;
+  margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  padding: 15px;
+  max-width: 500px;
+  border: 3px solid #8B008B;
+  border-radius: 10px;
+}
+
+header{
+  background-image: url('https://media1.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif');
+  background-size: cover;
+  height: 150px;
+  border-radius: 10px;
+}
+
+img{
+  border-radius: 100%;
+  position:center;
+  width:150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-50px);
+  border: 6px solid #8B008B;
+}
+
+h1{
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+body{
+  background-color:#9932CC;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #C71585;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 200%;
+  background-color:#C71585;
+  padding:10px;
+  margin:5px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+a {
+  display: grid;
+  width: auto;
+  height: auto;
+  line-height: 20px;
+  padding: 5px 10px;
+  margin: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#insignias, a:link, a:visited {
+   color: #ffffff;
+   background-color: #C71585;
+  }
+#insignias, a:hover {
+   color: black;
+  }
+
+.redes {
+  text-align: center;
+  background-color: #C71585;
+  border-radius: 10px;
+  }
+
+.redes a {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  background: #C71585;
+  color: white;
+  margin: 0 3px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  background: #000000;
+}
+.redes a i {
+  transition: 0.5s all;
+}
+.redes a:hover > i {
+  transform: scale(1.5) rotate(25deg);
+}
